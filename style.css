@@ -1,0 +1,72 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: 'Inter', sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* add missing declarations */
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+}
+
+.header-title {
+  font-family: "Permanet Marker" , cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: #fff;
+text-transform: uppercase;
+max-width: 1240px;
+margin:auto;
+text-align: center;
+}
+
+/* add a CSS rule for the page title here */
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 790px;
+  margin:100px auto 50px;
+
+  /* add missing declarations */
+}
+
+.card{
+  width: 350px;
+
+}
+.card-image{
+  width: 100%;
+  
+}
+
+.footer {
+  display: flex;
+  /* add missing declarations */
+}
+
+/* add a CSS rule for the footer signature */
